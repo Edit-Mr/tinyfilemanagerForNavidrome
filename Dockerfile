@@ -19,8 +19,8 @@ RUN apk add --no-cache \
 RUN docker-php-ext-install \
     zip 
 
-WORKDIR /var/www/html
+WORKDIR /music
 
 COPY tinyfilemanager.php index.php
 
-CMD ["sh", "-c", "php -S 0.0.0.0:80"]
+CMD ["sh", "-c", "php -S 0.0.0.0:8080"]
