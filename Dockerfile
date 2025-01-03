@@ -23,4 +23,4 @@ COPY tinyfilemanager.php index.php
 EXPOSE 80
 
 # Start PHP server
-CMD ["sh", "-c", "php -S 0.0.0.0:80"]
+CMD ["sh", "-c", "php -S 0.0.0.0:8080"]
